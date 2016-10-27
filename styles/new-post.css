@@ -1,28 +1,33 @@
 .post {
   display: flex;
-  border-bottom: 1px solid #e8e8e8;
   justify-content: space-between;
   max-width: 1170px;
   margin: 0 auto;
-  margin-bottom: 60px;
-  align-items: stretch;
-}
-/*.post-new {
+  }
+.post-new {
   display: flex;
-
-  }*/
+  border-bottom: 1px solid #e8e8e8;
+  flex-direction: column;
+  margin-bottom: 60px;
+  }
+.post-new:hover {
+  border-bottom: 1px solid #be926f;
+}
 .product-category-post{
   font-size: 0.8em;
   line-height: 2;
   color: #7f9f5d;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .post-title{
   font-size: 1.2em;
   line-height: 1.3333;
   color: #000000;
   text-align: center;
+  padding-bottom: 30px;
   }
 .time-post-add {
   font-size: 0.9333em;
@@ -30,8 +35,13 @@
   color: #999999;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
+  padding-left: 5px;
+  padding-bottom: 15px;
 }
-.time {
-  background-image: url("../images/new%20post/icon-time.png");
+.time-post {
+  display: flex;
+  justify-content: center;
+  }
+.new-pos-img {
+  border: 1px solid #be926f;
 }
-
