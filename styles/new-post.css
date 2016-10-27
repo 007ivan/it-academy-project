@@ -1,0 +1,37 @@
+.post {
+  display: flex;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  align-items: stretch;
+}
+/*.post-new {
+  display: flex;
+
+  }*/
+.product-category-post{
+  font-size: 0.8em;
+  line-height: 2;
+  color: #7f9f5d;
+  text-transform: uppercase;
+  text-align: center;
+}
+.post-title{
+  font-size: 1.2em;
+  line-height: 1.3333;
+  color: #000000;
+  text-align: center;
+  }
+.time-post-add {
+  font-size: 0.9333em;
+  line-height: 1.7142;
+  color: #999999;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.time {
+  background-image: url("../images/new%20post/icon-time.png");
+}
+

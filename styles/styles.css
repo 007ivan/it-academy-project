@@ -1,0 +1,31 @@
+@import "header-top.css";
+@import "header.css";
+@import "slider.css";
+@import "featured-products.css";
+@import "advert.css";
+@import "new-post.css";
+@import "testimonials.css";
+@import "hot-links.css";
+html {
+    font-size: 0.9375em;
+    line-height: 1.7333;
+}
+body {
+    min-width: 320px;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+    max-width: 1170px;
+    padding:0 15px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
