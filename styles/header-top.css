@@ -1,32 +1,38 @@
 .header-top {
-    background-color: #2b2b2b;
-    padding-top: 5px;
+  background-color: #2b2b2b;
+  padding-top: 5px;
 }
+
 .header-phone {
-    float: left;
-    font-style: normal;
-    font-size: 0.9333em;
-    line-height: 1.7142;
+  float: left;
+  font-style: normal;
+  font-size: 0.9333em;
+  line-height: 1.7142;
 }
+
 .header-phone a {
-    color: #7f7f7f;
-    text-decoration: none;
+  color: #7f7f7f;
+  text-decoration: none;
 }
+
 .header-phone a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 .header-user-links {
-    float: right;
-    color: #3b3b3b;
-    font-size: 0.8em;
-    text-align: right;
+  float: right;
+  color: #3b3b3b;
+  font-size: 0.8em;
+  text-align: right;
 }
+
 .header-user-links a {
-    color: #666666;
-    font-size: 0.9333em;
-    text-decoration: none;
-    line-height: 1.7142;
+  color: #666666;
+  font-size: 0.9333em;
+  text-decoration: none;
+  line-height: 1.7142;
 }
+
 .header-user-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

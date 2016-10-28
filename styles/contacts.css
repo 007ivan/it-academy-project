@@ -1,0 +1,47 @@
+.contacts {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: -15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.us-contacts {
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.contact-text {
+  font-size: 1.3333em;
+  line-height: 2;
+  color: #000000;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.phone-number a {
+  font-size: 1.6em;
+  line-height: 1.4166;
+  text-align: center;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: #232323;
+}
+
+.adress {
+  font-size: .9333em;
+  line-height: 2.1428;
+  color: #b7b7b7;
+}
+
+.info-mail a {
+  font-size: .9333em;
+  line-height: 2.1428;
+  color: #be926f;
+  text-decoration: none;
+}
+
+.contact-img {
+  margin: 0 auto;
+}

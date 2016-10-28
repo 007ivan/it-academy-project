@@ -1,0 +1,50 @@
+.footer {
+  border-top: 1px solid #e6e6e6;
+}
+
+.container-footer {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.autor {
+  font-size: 0.8666em;
+  line-height: 1.8461;
+  color: #e6e6e6;
+  margin-top: 30px;
+}
+
+.polisy {
+  margin-top: 15px;
+}
+
+.polisy li {
+  display: inline;
+}
+
+.polisy li a {
+  font-size: 0.8666em;
+  line-height: 1.8461;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.polisy li + li {
+  margin-left: 25px;
+}
+
+.social {
+  display: flex;
+  margin-top: 30px;
+}
+
+.tw-logo {
+  padding-right: 40px;
+}
+
+.fb-logo {
+  padding-right: 40px;
+}

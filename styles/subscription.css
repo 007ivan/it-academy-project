@@ -1,0 +1,34 @@
+.subscription {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-letter {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.subscription-email input {
+  width: 290px;
+  height: 43px;
+  border: 1px solid #e8e8e8;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: none;
+  padding-left: 24px;
+  color: #ffffff;
+  font-size: 1.0666em;
+}
+
+.subscription-email button {
+  border: 1px solid #be926f;
+  background-color: #ffffff;
+  width: 200px;
+  height: 47px;
+  margin-left: 15px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}

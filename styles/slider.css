@@ -1,55 +1,62 @@
 .fon {
-    background-image: url("images%20styles/slider.png");
-    background-color: #e6e6e6;
-    height: 479px;
-    margin-top: 30px;
-    margin-bottom: 55px;
+  background-image: url("images%20styles/slider.png");
+  background-color: #e6e6e6;
+  height: 479px;
+  margin-top: 30px;
+  margin-bottom: 55px;
 }
+
 .clider-text-t {
-    font-size: 5.3333em;
-    line-height: 0.8875;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-left: 11px;
+  font-size: 5.3333em;
+  line-height: 0.8875;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 11px;
 }
+
 .clider-text-year {
-    font-size: 2.6666em;
-    line-height:1.775;
-    margin-left: 40px;
-    }
+  font-size: 2.6666em;
+  line-height: 1.775;
+  margin-left: 40px;
+}
+
 .text-b {
-    display: block;
-    position: relative;
-    top:95px;
+  display: block;
+  position: relative;
+  top: 95px;
 }
+
 .collections {
-    font-size: 5em;
-    line-height: 1.7;
-    margin: 0 40px ;
-    display: block;
-    position: relative;
-    top:35px;
+  font-size: 5em;
+  line-height: 1.7;
+  margin: 0 40px;
+  display: block;
+  position: relative;
+  top: 35px;
 }
+
 .clider-text-2 {
-    font-size: 1.1333em;
-    line-height: 1.1764;
-    color: #666666;
-    margin-left: 47px;
-    margin-top: 15px;
-    margin-bottom: 70px;
-    }
-.shop-btn-link {
-    font-size: .7333em;
-    line-height: 2.1818;
-    font-weight: bold;
-    background-color: #be926f;
-    color: #e6e6e6;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 1.1818em  1.72em;
-    margin-left: 40px;
+  font-size: 1.1333em;
+  line-height: 1.1764;
+  color: #666666;
+  margin-left: 47px;
+  margin-top: 15px;
+  margin-bottom: 70px;
 }
+
+.shop-btn-link {
+  font-size: .7333em;
+  line-height: 2.1818;
+  font-weight: bold;
+  background-color: #be926f;
+  color: #e6e6e6;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.1818em 1.72em;
+  margin-left: 40px;
+}
+
 .shop-btn-link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
