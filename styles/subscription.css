@@ -11,10 +11,12 @@
   margin-top: 60px;
   margin-bottom: 60px;
 }
-
+.newletter-head {
+  font-weight: bold;
+}
 .subscription-email input {
   width: 290px;
-  height: 43px;
+  height: 46px;
   border: 1px solid #e8e8e8;
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   background: none;
@@ -27,8 +29,12 @@
   border: 1px solid #be926f;
   background-color: #ffffff;
   width: 200px;
-  height: 47px;
+  height: 49px;
   margin-left: 15px;
   font-size: 1.2em;
   text-transform: uppercase;
 }
+.fly {
+  background-image: url("../images/icon-fly.png");
+  background-repeat: no-repeat;
+  }

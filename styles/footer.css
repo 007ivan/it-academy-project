@@ -43,8 +43,22 @@
 
 .tw-logo {
   padding-right: 40px;
+  background-image: url("../images/icon-tw.png");
+  width: 19px;
+  height: 16px;
+  background-repeat: no-repeat;
 }
 
 .fb-logo {
+  background-image: url("../images/icon-f.png");
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 19px;
   padding-right: 40px;
+}
+.gp-logo {
+  background-image: url("../images/icon-gp.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
 }

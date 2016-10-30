@@ -1,0 +1,59 @@
+.clients-container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-top: 38px;
+  padding-bottom: 28px;
+}
+
+.client1 {
+  background-image: url("../images/client/client1.png");
+  width: 124px;
+  height: 61px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+}
+
+.client2 {
+  background-image: url("../images/client/client2.png");
+  width: 104px;
+  height: 55px;
+  background-repeat: no-repeat;
+}
+
+.client3 {
+  background-image: url("../images/client/client3.png");
+  width: 61px;
+  height: 59px;
+  background-repeat: no-repeat;
+}
+
+.client4 {
+  background-image: url("../images/client/client4.png");
+  width: 124px;
+  height: 81px;
+  background-repeat: no-repeat;
+}
+
+.client5 {
+  background-image: url("../images/client/client5.png");
+  width: 121px;
+  height: 63px;
+  background-repeat: no-repeat;
+}
+
+.client6 {
+  background-image: url("../images/client/client6.png");
+  width: 122px;
+  height: 75px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}

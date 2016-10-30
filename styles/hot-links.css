@@ -43,7 +43,38 @@
   text-decoration: underline;
 }
 
-.hot-link-img {
+.hot-link-img1 {
+  background-image: url("../images/icon-1.png");
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  border: 1px solid #be926f;
+  margin-right: 5px;
+}
+
+.hot-link-img2 {
+  background-image: url("../images/icon-2.png");
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  border: 1px solid #be926f;
+  margin-right: 5px;
+}
+
+.hot-link-img3 {
+  background-image: url("../images/icon-3.png");
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  border: 1px solid #be926f;
+  margin-right: 5px;
+}
+
+.hot-link-img4 {
+  background-image: url("../images/icon-4.png");
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
   border: 1px solid #be926f;
   margin-right: 5px;
 }

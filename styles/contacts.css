@@ -1,15 +1,16 @@
 .contacts {
   max-width: 1170px;
   margin: 0 auto;
-  padding: -15px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .us-contacts {
   margin-top: 45px;
   margin-bottom: 60px;
-}
+  flex-basis: 33.33%;
+  }
 
 .contact-text {
   font-size: 1.3333em;
@@ -19,12 +20,13 @@
   padding-top: 20px;
   padding-bottom: 30px;
 }
-
-.phone-number a {
+.phone-number{
   font-size: 1.6em;
   line-height: 1.4166;
   text-align: center;
   padding-bottom: 30px;
+}
+.phone-number a {
   text-decoration: none;
   color: #232323;
 }
@@ -32,16 +34,38 @@
 .adress {
   font-size: .9333em;
   line-height: 2.1428;
+  text-align: center;
   color: #b7b7b7;
+}
+.info-mail {
+  font-size: .9333em;
+  line-height: 2.1428;
+  text-align: center;
 }
 
 .info-mail a {
-  font-size: .9333em;
-  line-height: 2.1428;
   color: #be926f;
   text-decoration: none;
 }
 
 .contact-img {
+  width: 35px;
+  height: 56px;
+  background-image: url("../images/icon-pfone.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+    }
+.contact-img1 {
+  background-image: url("../images/icon-location.png");
+  width: 34px;
+  height: 49px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.contact-img3 {
+  background-image: url("../images/icon-mail.png");
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 40px;
   margin: 0 auto;
 }

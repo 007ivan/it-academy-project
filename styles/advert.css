@@ -25,12 +25,16 @@
 
 .adv-prod1-text {
   margin-left: 17px;
+  margin-top: 10px;
 }
 
 .adv-small-img {
   border: 1px solid #be926f;
-  margin-top: 10px;
   margin-left: 20px;
+  background-image: url("../images/product3.png");
+  width: 78px;
+  height: 78px;
+  background-repeat: no-repeat;
 }
 
 .adv-category a {
@@ -73,6 +77,7 @@
 
 .adv-prod2-text {
   margin-left: 17px;
+  margin-top: 10px;
 }
 
 .adv-sugget {
@@ -111,17 +116,4 @@
   font-weight: bold;
   line-height: 1.7142;
   padding-bottom: 15px;
-}
-
-/*styles for clients*/
-
-.client {
-  display: flex;
-  border: 1px solid #e6e6e6;
-  box-sizing: border-box;
-  justify-content: space-between;
-  padding-top: 38px;
-  padding-bottom: 28px;
-  margin-top: 30px;
-  margin-bottom: 60px;
 }

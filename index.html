@@ -136,9 +136,7 @@
   <div class="container advertisment">
     <div class="small-adv">
       <div class="adv-prod1">
-        <div class="adv-prod1-img">
-          <img class="adv-small-img" src="images/product3.png" alt="pr3" width="78" height="78"/>
-        </div>
+        <div class="adv-small-img"></div>
         <div class="adv-prod1-text">
           <div class="adv-category"><a href="#">Bed room</a></div>
           <div class="adv-title">Vintage Shelf</div>
@@ -146,9 +144,7 @@
         </div>
       </div>
       <div class="adv-prod2">
-        <div class="adv-prod1-img">
-          <img class="adv-small-img" src="images/product3.png" alt="pr3" width="78" height="78"/>
-        </div>
+        <div class="adv-small-img"></div>
         <div class="adv-prod2-text">
           <div class="adv-category"><a href="#">Living room</a></div>
           <div class="adv-title">Silk Pillow</div>
@@ -165,15 +161,27 @@
       <div class="adv-price">$148</div>
     </div>
   </div>
-  <div class="container clients">
-    <p class="client">
-      <a href="#"><img src="images/client/client1.png" alt="cl1"/></a>
-      <a href="#"><img src="images/client/client2.png" alt="cl2"/></a>
-      <a href="#"><img src="images/client/client3.png" alt="cl3"/></a>
-      <a href="#"><img src="images/client/client4.png" alt="cl4"/></a>
-      <a href="#"><img src="images/client/client5.png" alt="cl5"/></a>
-      <a href="#"><img src="images/client/client6.png" alt="cl6"/></a>
-    </p>
+  <div class="clients-container">
+    <div class="clients">
+      <a href="#">
+        <div class="client1"></div>
+      </a>
+      <a href="#">
+        <div class="client2"></div>
+      </a>
+      <a href="#">
+        <div class="client3"></div>
+      </a>
+      <a href="#">
+        <div class="client4"></div>
+      </a>
+      <a href="#">
+        <div class="client5"></div>
+      </a>
+      <a href="#">
+        <div class="client6"></div>
+      </a>
+    </div>
   </div>
   <div class="container featured-products">
     <h2 class="title">BEST SELLER</h2>
@@ -252,13 +260,14 @@
 </div>
 <div class="post">
   <div class="nav-new-posts">
-    <div class="prev"></div>
-    <a href="#">Prew</a>
+
+    <a href="#" class="prew">Prew</a>
 
     <div class="new-post-text">New posts</div>
-    <a href="#">Next</a>
 
-    <div class="next"></div>
+
+    <a href="#" class="next">Next</a>
+
   </div>
   <div class="contair new-posts">
     <div class="post-new">
@@ -321,57 +330,54 @@
 <div class="subscription">
   <div class="news-letter">
     <ul class="list-unstyled">
-      <li>NEWSLETTER</li>
+      <li class="newletter-head">NEWSLETTER</li>
       <li>Keep up on our always evolving product features and technology.</li>
       <li>Enter your e-mail and subscribe to our newsletter.</li>
     </ul>
   </div>
   <form action="#" class="subscription-email">
     <input type="email" placeholder="Email address"/>
-    <button class="subscribe"><img src="images/icon-fly.png" width="33" height="26"/>subscribe</button>
+    <button class="subscribe">
+      <div class="fly">subscribe</div>
+    </button>
   </form>
 </div>
 <div class="hot-links">
   <div class="hot-link">
     <div class="hot-links1">
-      <img class="hot-link-img" src="images/icon-1.png"/>
-
+      <div class="hot-link-img1"></div>
       <div class="hot-links-text"><a href="#">FREE SHIPPING</a></div>
     </div>
     <div class="hot-links2">
-      <img class="hot-link-img" src="images/icon-2.png"/>
-
+      <div class="hot-link-img2"></div>
       <div class="hot-links-text"><a href="#">CUSTOMER SUPPORT</a></div>
     </div>
     <div class="hot-links3">
-      <img class="hot-link-img" src="images/icon-3.png"/>
-
+      <div class="hot-link-img3"></div>
       <div class="hot-links-text"><a href="#">15 DAYS MONEY BACK</a></div>
     </div>
     <div class="hot-links4">
-      <img class="hot-link-img" src="images/icon-4.png"/>
-
+      <div class="hot-link-img4"></div>
       <div class="hot-links-text"><a href="#">24/7 Help Center</a></div>
     </div>
   </div>
 </div>
 <div class="contacts">
   <div class="us-contacts">
-    <img class="contact-img" src="images/icon-pfone.png" alt="icon phone" width="35" height="56"/>
 
+    <div class="contact-img"></div>
     <div class="contact-text">Call us</div>
     <div class="phone-number">
       <a href="tel:+38123456789">1-800-277-7766</a></div>
   </div>
   <div class="us-contacts">
-    <img src="images/icon-location.png" alt="icon location" width="34" height="49"/>
 
+    <div class="contact-img1"></div>
     <div class="contact-text">Location</div>
     <div class="adress">Moscow, Pushkin str. 32/A</div>
   </div>
   <div class="us-contacts">
-    <img src="images/icon-mail.png" alt="icon mail" width="56" height="40"/>
-
+    <div class="contact-img3"></div>
     <div class="contact-text">Mail</div>
     <div class="info-mail"><a href="mailto:info@domain.com">info@domain.com</a></div>
   </div>
@@ -387,21 +393,15 @@
       </ul>
     </div>
     <div class="social">
-      <div class="tw-logo">
-        <a href="" title="Опубликовать ссылку в Twitter">
-          <img src="images/icon-tw.png" width="19" height="16"/>
-        </a>
-      </div>
-      <div class="fb-logo">
-        <a href="" title="Опубликовать ссылку в Facebook">
-          <img src="images/icon-f.png" width="9" height="19"/>
-        </a>
-      </div>
-      <div class="gp-logo">
-        <a href="" title="Опубликовать ссылку в Google Plus">
-          <img src="images/icon-gp.png" width="18" height="18"/>
-        </a>
-      </div>
+      <a href="" title="Опубликовать ссылку в Twitter">
+        <div class="tw-logo"></div>
+      </a>
+      <a href="" title="Опубликовать ссылку в Facebook">
+        <div class="fb-logo"></div>
+      </a>
+      <a href="" title="Опубликовать ссылку в Google Plus">
+        <div class="gp-logo"></div>
+      </a>
     </div>
   </div>
 </footer>
