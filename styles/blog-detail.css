@@ -1,0 +1,98 @@
+.blog {
+
+}
+
+.blog-text {
+  margin-right: 30px;
+  margin-left: 30px;
+
+}
+
+.colortext {
+  color: gray;
+}
+
+.ws {
+  word-spacing: 15px;
+}
+
+p.fz1 {
+  font-size: 1.6em;
+}
+
+p.fz2 {
+  font-size: 0.9333em;
+  margin-bottom: 65px;
+}
+
+.blog-text p {
+  font-size: 1em;
+  text-align: justify;
+  margin-bottom: 40px;
+  line-height: 1.7333;
+  color: #333333;
+}
+
+.posts-share {
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags {
+  font-size: 1em;
+  color: #666666;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tags span {
+  font-size: 1em;
+  color: #333333;
+
+}
+
+.social-posts {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.share-post {
+  font-size: 1em;
+  color: #333333;
+  padding-right: 10px;
+}
+
+.fb-logo-color {
+  background-image: url("../images/icon-f-color.png");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.tw-logo-color {
+  background-image: url("../images/icon-tw-color.png");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.c-logo-color {
+  background-image: url("../images/icon-c-color.png");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.gp-logo-color {
+  background-image: url("../images/icon-gp-color.png");
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  width: 35px;
+  height: 35px;
+}

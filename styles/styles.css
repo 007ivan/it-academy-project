@@ -10,6 +10,9 @@
 @import "subscription.css";
 @import "contacts.css";
 @import "footer.css";
+@import "blog-Brcum.css";
+@import "blog-sidebar.css";
+@import "blog-detail.css";
 
 html {
   font-size: 0.9375em;
@@ -23,6 +26,7 @@ body {
 
 .container {
   max-width: 1170px;
+  min-width: 320px;
   padding: 0 15px;
   margin: 0 auto;
 }

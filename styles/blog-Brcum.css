@@ -1,0 +1,33 @@
+.container-contact {
+  max-width: 1170px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e7e7e7;
+}
+
+.contact {
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-left: 30px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.contact-links {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.contact-links a {
+  color: #666666;
+  font-size: 0.9333em;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: #cfcfcf;
+  text-decoration: underline;
+}
+
