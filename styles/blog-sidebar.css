@@ -33,8 +33,16 @@
 .sidebar-convert li {
   font-size: .9333em;
   line-height: 3.4285;
-  color: #333333;
   border-bottom: 1px solid #be926f;
+}
+
+.sidebar-convert li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.sidebar-convert li a:hover {
+  color: #be926f;
 }
 
 .by-categ {
@@ -78,8 +86,16 @@
 .sidebar-archiv li {
   font-size: .9333em;
   line-height: 3.4285;
-  color: #333333;
   border-bottom: 1px solid #be926f;
+}
+
+.sidebar-archiv li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.sidebar-archiv li a:hover {
+  color: #be926f;
 }
 
 .popular-post {

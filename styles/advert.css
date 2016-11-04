@@ -14,6 +14,8 @@
   justify-content: space-between;
   align-items: center;
   margin-left: -15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 .adv-prod1 {
@@ -89,7 +91,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-right: -15px;
-  padding-left: 20px;
+  padding-left: 26px;
 }
 
 .hot {

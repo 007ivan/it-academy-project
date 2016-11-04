@@ -118,12 +118,12 @@
   font-size: 1.1333em;
   color: #232323;
   line-height: 1.2941;
-  margin-top: 30px;
+  margin-top: 22px;
 }
 
 .product-category {
-  margin-top: 18px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .product-category a {
@@ -142,8 +142,8 @@
   color: #be926f;
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 15px;
-  margin-bottom: 23px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 s {
