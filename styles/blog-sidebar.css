@@ -12,6 +12,26 @@
   flex-direction: column;
   flex-basis: 132%;
   margin-right: 30px;
+  }
+.sidebar-search {
+  display: flex;
+  border: 1px solid #be926f;
+  margin-bottom: 30px;
+  padding-left: 25px;
+   }
+.sidebar-search-form {
+  flex-basis: 225px;
+  border: none;
+  font-size: 1.0666em;
+}
+.button-blog {
+  font-size: 0;
+  background-image: url("../images/logo%20search%20blog.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 43px;
+  height: 43px;
+  background-color: #be926f;
 }
 
 .sidebar-convert {
