@@ -1,6 +1,6 @@
 header {
   background-color: #232323;
-  padding-bottom: 26px;
+  padding-bottom: 23px;
 }
 
 header .container {
@@ -79,7 +79,7 @@ header .container {
   width: 17px;
   height: 22px;
   float: right;
-  margin: -22px 10px 0 0;
+  margin: -28px 9px 0 0;
   position: relative;
   font-size: .8em;
 }
