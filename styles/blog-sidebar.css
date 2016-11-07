@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   flex-basis: 270px;
+  flex-shrink: 0;
   margin-right: 30px;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .sidebar-search-form {
-  flex-basis: 225px;
+  flex-grow: 1;
   border: none;
   font-size: 1.0666em;
 }
@@ -32,7 +33,7 @@
   background-image: url("../images/logo%20search%20blog.png");
   background-repeat: no-repeat;
   background-position: center center;
-  width: 43px;
+  flex-basis: 44px;
   height: 43px;
   border: none;
   background-color: #be926f;

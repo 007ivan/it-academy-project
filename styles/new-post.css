@@ -117,10 +117,8 @@
   border: 1px solid #be926f;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1200px) {
   .new-posts {
-    margin: 0 auto;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }

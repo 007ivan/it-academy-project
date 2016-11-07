@@ -1,3 +1,7 @@
+.blog {
+  flex-grow: 1;
+}
+
 .blog-text {
   margin-top: 45px;
   margin-right: 30px;
@@ -10,7 +14,6 @@
 
 .blog-img-cover {
   object-fit: cover;
-  margin-left: 20px;
 }
 
 .colortext {
