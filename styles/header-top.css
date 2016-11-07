@@ -37,3 +37,13 @@
 .header-user-links a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 640px) {
+  .header-user-links {
+    float: right;
+    color: #3b3b3b;
+    font-size: 0.9333em;
+    text-align: right;
+    padding-right: 25px;
+  }
+}

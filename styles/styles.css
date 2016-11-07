@@ -20,13 +20,13 @@ html {
 }
 
 body {
-  min-width: 320px;
+  min-width: 640px;
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .container {
   max-width: 1170px;
-  min-width: 320px;
+  min-width: 640px;
   padding: 0 15px;
   margin: 0 auto;
 }

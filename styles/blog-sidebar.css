@@ -1,6 +1,6 @@
 .page-body-blog {
   max-width: 1170px;
-  min-width: 320px;
+  min-width: 640px;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
@@ -10,20 +10,23 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  flex-basis: 132%;
+  flex-basis: 270px;
   margin-right: 30px;
-  }
+}
+
 .sidebar-search {
   display: flex;
   border: 1px solid #be926f;
   margin-bottom: 30px;
   padding-left: 25px;
-   }
+}
+
 .sidebar-search-form {
   flex-basis: 225px;
   border: none;
   font-size: 1.0666em;
 }
+
 .button-blog {
   font-size: 0;
   background-image: url("../images/logo%20search%20blog.png");
@@ -31,7 +34,12 @@
   background-position: center center;
   width: 43px;
   height: 43px;
+  border: none;
   background-color: #be926f;
+}
+
+.button-blog:hover {
+  background-color: rgba(190, 146, 111, 0.8);
 }
 
 .sidebar-convert {
@@ -59,6 +67,8 @@
 .sidebar-convert li a {
   text-decoration: none;
   color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .sidebar-convert li a:hover {
@@ -112,6 +122,8 @@
 .sidebar-archiv li a {
   text-decoration: none;
   color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .sidebar-archiv li a:hover {
@@ -172,3 +184,4 @@
   line-height: 1.2941;
   margin-left: 12px;
 }
+

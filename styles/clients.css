@@ -6,6 +6,7 @@
 .clients {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   border: 1px solid #e6e6e6;
   box-sizing: border-box;
   margin-top: 30px;
@@ -56,4 +57,18 @@
   height: 75px;
   margin-right: 10px;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .clients {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-top: 38px;
+    padding-bottom: 18px;
+  }
 }

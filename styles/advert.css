@@ -119,3 +119,27 @@
   line-height: 1.7142;
   padding-bottom: 15px;
 }
+
+@media (max-width: 640px) {
+  .small-adv {
+    display: flex;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .adv-sugget {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: -15px;
+    padding-left: 26px;
+  }
+}
