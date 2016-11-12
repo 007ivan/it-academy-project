@@ -21,7 +21,9 @@
   border: 1px solid #e6e6e6;
   text-align: center;
 }
-
+.featured-product + .featured-product {
+  border-left: none;
+}
 .product-action {
   position: relative;
   width: 210px;

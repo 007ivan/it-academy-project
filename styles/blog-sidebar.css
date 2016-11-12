@@ -185,4 +185,8 @@
   line-height: 1.2941;
   margin-left: 12px;
 }
-
+@media (max-width: 640px) {
+  .sidebar {
+    order: 2;
+  }
+}
