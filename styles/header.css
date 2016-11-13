@@ -44,7 +44,6 @@ header .container {
 }
 
 .header-nav {
-  padding-top: 55px;
   padding-right: 44px;
   font-size: 1.0666em;
 }
@@ -103,6 +102,17 @@ header .container {
   text-decoration: underline;
 }
 
+@media (max-width: 680px) {
+  .header-nav {
+    padding-right: 44px;
+    font-size: 16px;
+  }
+
+  .header-nav li + li {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 640px) {
   body {
     background: #f7f7f7;
@@ -117,7 +127,6 @@ header .container {
   }
 
   .header-nav {
-    padding-top: 40px;
     padding-right: 44px;
     font-size: 16px;
   }

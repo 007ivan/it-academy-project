@@ -21,9 +21,11 @@
   border: 1px solid #e6e6e6;
   text-align: center;
 }
+
 .featured-product + .featured-product {
   border-left: none;
 }
+
 .product-action {
   position: relative;
   width: 210px;
@@ -154,4 +156,12 @@ s {
   color: #aeaeae;
   font-weight: bold;
   margin-right: 15px;
+}
+
+@media (max-width: 900px) {
+
+  .featured-product + .featured-product {
+    border-left: 1px solid #e6e6e6;
+  }
+
 }
