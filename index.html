@@ -4,12 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>academy project</title>
-  <script src="jquery-1.11.0.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="index.js"></script>
-</head>
+ </head>
 <body>
 <div class="header-top">
   <div class="container clearfix">
@@ -21,11 +19,6 @@
     </div>
   </div>
 </div>
-<script>
-  $(document) .ready(function () {
-    $('header') .hide() .slideDown(3000);
-  });
-</script>
 <header class="header">
   <div class="container clearfix">
     <div class="header-logo">
@@ -45,7 +38,12 @@
         <li><a href="#">Office</a></li>
         <li><a href="#">Bedroom</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#">Contact</a>
+        <ul>
+          <li><a href="#">First</a></li>
+          <li><a href="#">Second</a></li>
+        </ul></li>
       </ul>
     </nav>
        <div class="header-cart">
@@ -405,5 +403,7 @@
     </div>
   </div>
 </footer>
+<script src="jquery-1.11.0.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
