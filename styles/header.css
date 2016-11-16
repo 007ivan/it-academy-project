@@ -85,7 +85,7 @@ header .container {
   top: 100%;
   left: 0;
 }
-.header-nav a.opened + ul {
+.header-nav li.opened ul {
   display: block;
 }
 

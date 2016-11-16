@@ -1,30 +1,15 @@
-/*$(document) .ready(function() {
-  $('slyder').hide().slideDown(30500);
-});*/
-/*var firstN = 'Ivan';
-var lastM = 'Kruk';
-document.write('<p>');
-document.write (firstN + '' + lastM);
-document.write('</p>');
-*/
-
-$(document) .ready(function () {
-  $('header') .hide() .slideDown(3000);
+$(document).ready(function () {
+  $('header').hide().slideDown(3000);
 });
 
-$(document) .ready(function () {
-  $('.slider') .hide() .slideDown(3000);
+$(document).ready(function () {
+  $('.slider').hide().slideDown(2500);
 });
 
-$(function(){
-  var $headerNevLink = $ (".header-nav a");
-
-  $headerNevLink.on('click', function (e){
+$(function () {
+  var $headerNavLi = $('.header-nav li').has('ul');
+  $headerNavLi.find('a').on('click', function (e) {
     e.preventDefault();
-    $(this).toggleClass ('opened');
-    })
-
-
-
-
-} )
+    $(this).closest('li').toggleClass('opened');
+  });
+});
