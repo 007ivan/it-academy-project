@@ -4,8 +4,7 @@
   }
 .shop-btn-link {
   object-fit: cover;
-  width: 1170px;
-  height: 481px;
+
 }
 @media (max-width: 640px) {
   .shop-btn-link {

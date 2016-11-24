@@ -13,6 +13,8 @@
 @import "blog-Brcum.css";
 @import "blog-sidebar.css";
 @import "blog-detail.css";
+@import "product-bloc.css";
+@import "sidebar-product.css";
 
 html {
   font-size: 0.9375em;
