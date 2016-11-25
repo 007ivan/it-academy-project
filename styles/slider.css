@@ -1,15 +1,7 @@
-.shop-btn {
+.slide {
   margin-top: 30px;
-  margin-bottom: 45px;
+
   }
 .shop-btn-link {
   object-fit: cover;
-
-}
-@media (max-width: 640px) {
-  .shop-btn-link {
-    object-fit: cover;
-    width: 640px;
-    height: 240px;
-  }
 }

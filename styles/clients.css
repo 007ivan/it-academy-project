@@ -70,8 +70,8 @@
 
 @media (max-width: 640px) {
   .clients {
-    justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     background-color: #ffffff;
       }
 }

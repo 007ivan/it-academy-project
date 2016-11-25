@@ -42,6 +42,7 @@
   border-top: 1px solid #e4e4e4;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -99,11 +100,18 @@
   width: 35px;
   height: 35px;
 }
+@media (max-width: 860px) {
+  .social-posts {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+}
 
 @media (max-width: 640px) {
   .page-body-blog {
     max-width: 640px;
-    min-width: 640px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;

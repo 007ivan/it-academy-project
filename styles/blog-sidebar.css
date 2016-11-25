@@ -1,6 +1,5 @@
 .page-body-blog {
   max-width: 1170px;
-  min-width: 640px;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
@@ -26,11 +25,12 @@
   flex-grow: 1;
   border: none;
   font-size: 1.0666em;
+  height: 43px;
 }
 
 .button-blog {
   font-size: 0;
-  background-image: url("../images/logo%20search%20blog.png");
+  background-image: url("../images/logo_search_blog.png");
   background-repeat: no-repeat;
   background-position: center center;
   flex-basis: 44px;
@@ -48,15 +48,15 @@
   margin-bottom: 30px;
 }
 
-.sidebar-convert li:before {
-  content: "";
+.convert {
+  position: absolute;
   background-image: url("../images/icon-convert.png");
   width: 20px;
   height: 16px;
-  padding-left: 43px;
-  margin-left: 20px;
   background-position: center;
   background-repeat: no-repeat;
+  bottom: 12px;
+  left: -25px;
 }
 
 .sidebar-convert li {
@@ -66,10 +66,13 @@
 }
 
 .sidebar-convert li a {
+  position: relative;
   text-decoration: none;
   color: #333333;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  left: 55px;
 }
 
 .sidebar-convert li a:hover {
@@ -103,15 +106,15 @@
   margin-bottom: 30px;
 }
 
-.sidebar-archiv li:before {
-  content: "";
+.archiv-img {
+  position: absolute;
   background-image: url("../images/icon-calendar.png");
   width: 20px;
   height: 16px;
-  padding-left: 43px;
-  margin-left: 20px;
   background-position: center;
   background-repeat: no-repeat;
+  bottom: 12px;
+  left: -25px;
 }
 
 .sidebar-archiv li {
@@ -121,10 +124,13 @@
 }
 
 .sidebar-archiv li a {
+  position: relative;
   text-decoration: none;
   color: #333333;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  left: 55px;
 }
 
 .sidebar-archiv li a:hover {
@@ -188,5 +194,6 @@
 @media (max-width: 640px) {
   .sidebar {
     order: 2;
+    margin-right: 0;
   }
 }

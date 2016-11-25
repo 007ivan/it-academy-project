@@ -1,4 +1,4 @@
-.page-body-blog {
+/*.page-body-blog {
   max-width: 1170px;
   min-width: 640px;
   padding: 0 15px;
@@ -146,7 +146,7 @@
   background-repeat: no-repeat;
 }
 */
-.sidebar-categories li {
+/*.sidebar-categories li {
   font-size: .9333em;
   line-height: 3.4285;
   border-bottom: 1px solid #be926f;
@@ -242,3 +242,4 @@
     order: 2;
   }
 }
+*/

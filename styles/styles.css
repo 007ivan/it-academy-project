@@ -22,13 +22,13 @@ html {
 }
 
 body {
-  min-width: 640px;
+  min-width: 320px;
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .container {
   max-width: 1170px;
-  min-width: 640px;
+  min-width: 320px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -43,4 +43,23 @@ body {
 .list-unstyled {
   list-style: none;
   padding-left: 0;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+@media (max-width: 585px) {
+  .header-nav ul li {
+    display: none;
+  }
+  .slicknav_menu {
+    max-width: 120px;
+    margin: 0;
+    display: block;
+  }
+  #menu {
+    margin-bottom: 0;
+    padding-left: 15px;
+  }
 }
