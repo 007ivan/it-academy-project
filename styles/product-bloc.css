@@ -1,28 +1,101 @@
-/*.blog {
+.product-grid-bloc {
   flex-grow: 1;
 }
-
-.blog-text {
-  margin-top: 45px;
-  margin-right: 30px;
-  margin-left: 30px;
+.sort-by {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
 }
 
-.blog-menu {
-  padding-bottom: 22px;
+.page-product {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
 }
+.view-product {
+  padding-right: 7px;
+}
+.page-list {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  }
+.view-product li {
+  display: inline-block;
+}
+
+.page-list a {
+  text-decoration: none;
+  color: #666666;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.page-list:hover {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  background: #be926f;
+  text-align: center;
+}
+.page-list a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+ }
+
 .product-bloc {
   max-width: 850px;
   margin: 0 auto;
   display: flex;
   flex-basis: 33.33%;
   justify-content: space-around;
-
+}
+.products-bloc {
+  margin: 30px auto;
 }
 
-.us-contacts {
-  margin-top: 45px;
-  margin-bottom: 35px;
-
+.products-bloc .featured-products-list .featured-product {
+  border: 1px solid #e6e6e6;
+  flex-basis: 33.33%;
+   }
+.products-bloc .featured-products-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-*/
+@media (max-width: 1236px) {
+  .products-bloc .featured-products-list .featured-product {
+    border: 1px solid #e6e6e6;
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 1110px) {
+
+  .products-bloc .featured-products-list .featured-product {
+    border-left: 1px solid #e6e6e6;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 958px) {
+  .products-bloc .featured-products-list .featured-product {
+    border: 1px solid #e6e6e6;
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 639px) {
+  .products-bloc .featured-products-list .featured-product {
+    border: 1px solid #e6e6e6;
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 560px) {
+  .products-bloc .featured-products-list .featured-product {
+    border: 1px solid #e6e6e6;
+    flex-basis: 100%;
+  }
+}

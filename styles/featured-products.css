@@ -158,12 +158,16 @@ s {
   margin-right: 15px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1110px) {
 
   .featured-product + .featured-product {
     border-left: 1px solid #e6e6e6;
-  }
 
+  }
+  .featured-product {
+    border-left: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+  }
 }
 
 
