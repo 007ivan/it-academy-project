@@ -5,7 +5,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  }
+}
 
 .sidebar-product {
   display: flex;
@@ -39,6 +39,95 @@
   background-color: #be926f;
 }
 
+/* Ширина слайдера */
+#slider {
+  width: 270px;
+}
+
+/* Контейнер слайдера */
+.ui-slider {
+  position: relative;
+}
+
+/* Ползунок */
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 10px; /* Задаем нужную ширину */
+  height: 10px; /* и высоту */
+  background: url("images styles/icon-slide.png") no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+  cursor: pointer
+}
+
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  overflow: hidden;
+}
+
+/* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
+.ui-slider-horizontal {
+  height: 2px; /* задаем высоту согласно дизайна */
+}
+
+/* позиционируем ползунки */
+.ui-slider-horizontal .ui-slider-handle {
+  top: -5px;
+  margin-left: -6px;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%;
+}
+
+.ui-slider-horizontal .ui-slider-range-min {
+  left: 0;
+}
+
+.ui-slider-horizontal .ui-slider-range-max {
+  right: 0;
+}
+
+/* оформление полосы по которой ходит ползунок */
+.ui-widget-content {
+  border: 1px solid #D4D4D4;
+  background: #fff;
+}
+
+/* оформление активного участка (между двумя ползунками) */
+.ui-widget-header {
+  border: 1px solid #D4D4D4;
+  background: #be926f;
+}
+
+#minCost {
+  width: 60px;
+  height: 26px;
+  border: 1px solid #be926f;
+  margin-right: 10px;
+}
+
+#maxCost {
+  width: 60px;
+  height: 26px;
+  border: 1px solid #be926f;
+}
+
+.button-filter {
+  width: 90px;
+  height: 30px;
+  border: none;
+  background: #be926f;
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+}
+
 .button-blog:hover {
   background-color: rgba(190, 146, 111, 0.8);
 }
@@ -49,14 +138,14 @@
 }
 
 .sidebar-nav-icon {
-position: absolute;
+  position: absolute;
   top: 10px;
   left: 0;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
   background-position: center center;
-  }
+}
 
 .sidebar-categories li {
   position: relative;
@@ -71,7 +160,7 @@ position: absolute;
   color: #333333;
   padding-top: 10px;
   padding-bottom: 10px;
- }
+}
 
 .sidebar-categories li a:hover {
   color: #be926f;

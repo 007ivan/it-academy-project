@@ -17,7 +17,6 @@
 .prew {
   background-image: url("../images/icon-prev.png");
   background-repeat: no-repeat;
-  /*margin-top: 30px;*/
   opacity: 1;
 }
 
@@ -43,8 +42,7 @@
   background-image: url("../images/icon-next.png");
   background-repeat: no-repeat;
   background-position: center right;
-  /*margin-top: 30px;*/
-}
+  }
 
 .nav-new-posts a:hover {
   color: #be926f;

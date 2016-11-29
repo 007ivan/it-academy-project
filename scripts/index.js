@@ -14,6 +14,45 @@ $(function () {
   });
 });
 
+$("#slider").slider({
+  min: 0,
+  max: 1000,
+  values: [0,1000],
+  range: true,
+  stop: function(event, ui) {
+    $("input#minCost").val(jQuery("#slider").slider("values",0));
+    $("input#maxCost").val(jQuery("#slider").slider("values",1));
+  },
+  slide: function(event, ui){
+    jQuery("input#minCost").val(jQuery("#slider").slider("values",0));
+    jQuery("input#maxCost").val(jQuery("#slider").slider("values",1));
+  }
+});
+
+jQuery("input#minCost").change(function(){
+  var value1=jQuery("input#minCost").val();
+  var value2=jQuery("input#maxCost").val();
+
+  if(parseInt(value1) > parseInt(value2)){
+    value1 = value2;
+    jQuery("input#minCost").val(value1);
+  }
+  jQuery("#slider").slider("values",0,value1);
+});
+
+
+jQuery("input#maxCost").change(function(){
+  var value1=jQuery("input#minCost").val();
+  var value2=jQuery("input#maxCost").val();
+
+  if (value2 > 1000) { value2 = 1000; jQuery("input#maxCost").val(1000)}
+
+  if(parseInt(value1) > parseInt(value2)){
+    value2 = value1;
+    jQuery("input#maxCost").val(value2);
+  }
+  jQuery("#slider").slider("values",1,value2);
+});
 
 /*$(document).ready(function() {
 
@@ -38,13 +77,50 @@ $(function () {
     prependTo: menu
   });
 });
-
-
-$(function () {
-  $('.slider').slick({
+$(document).ready(function () {
+  var $slider1 = $(".slider");
+  $slider1.slick({
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     dots: true
   });
+
+  /*var $slider2 = $(".new-posts");
+  $(".nav-nev-post .prew").on("click", function (e) {
+    e.preventDefault();
+    $slider2.slick("slick.prev");
+  });
+  $(".nav-nev-post .next").on("click", function (e) {
+    e.preventDefault();
+    $slider2.slick("slick.next");
+  });
+  $slider2.slick({
+    arrows: false,
+    infinite: true,
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          arrows: false,
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 830,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 548,
+        settings: {
+          arrows: false,
+          slidesToShow: 1
+        }
+      }
+    ]
+  });*/
 });

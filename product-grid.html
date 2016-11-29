@@ -65,10 +65,12 @@
     <div class="filter-price">FILTER BY PRICE</div>
 
     <div class="wrapper">
+      <div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content" id="slider"></div>
       <div id="slider-range"></div>
       <p>
-        <input name="price_s" type="text" value=""/> - <input name="price_f" type="text" value=""/>
-        <button class="filter">filter</button>
+        <input type="text" id="minCost" value="0"/>
+        <input type="text" id="maxCost" value="1000"/>
+        <button class="button-filter">filter</button>
       </p>
     </div>
 
@@ -145,11 +147,20 @@
 
 
   <div class="product-grid-bloc">
-    <div class="sort-by">
-      <div class="sort-by-type">
+    <div class="sort-by-type">
+      <div class="sort-by">
         <span>Sort by</span>
+        <div class="sort-categoria">
+          <ul class="list-unstyled">
+            <li><a href="#">Rating</a></li>
+            <li><a href="#">Price</a></li>
+          </ul>
+          <button class="button-sort"></button></div>
       </div>
-      <div class="view-product">view</div>
+      <div class="view-product">
+        <button class="button-view1"></button>
+        <button class="button-view2"></button>
+        </div>
     </div>
     <div class="products-bloc">
       <ul class="featured-products-list">
@@ -364,8 +375,14 @@
       </ul>
     </div>
     <div class="page-product">
-      <div class="sort-by-type">
+      <div class="sort-by">
         <span>Sort by</span>
+        <div class="sort-categoria">
+          <ul class="list-unstyled">
+          <li><a href="#">Rating</a></li>
+          <li><a href="#">Price</a></li>
+          </ul>
+        <button class="button-sort"></button></div>
       </div>
       <div class="view-product">
         <ul class="list-unstyled">
@@ -464,6 +481,8 @@
 <script src="scripts/jquery-1.11.0.min.js"></script>
 <script src="scripts/slick.min.js"></script>
 <script src="scripts/jquery.slicknav.min.js"></script>
+<script src="scripts/jquery.ui-slider.js"></script>
 <script src="scripts/index.js"></script>
+
 </body>
 </html>
