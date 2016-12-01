@@ -79,3 +79,13 @@
   border: 1px solid #be926f;
   margin-right: 5px;
 }
+@media (max-width: 320px) {
+.hot-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+}

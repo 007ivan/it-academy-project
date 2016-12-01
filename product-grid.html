@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="scripts/slick-theme.css">
   <link rel="stylesheet" href="scripts/slicknav.min.css">
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="uniform/css/default.css">
+  <link rel="stylesheet" href="scripts/jquery-ui.css">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -63,18 +65,20 @@
       <button type="button" class="button-blog">Search</button>
     </form>
     <div class="filter-price">FILTER BY PRICE</div>
-
     <div class="wrapper">
-      <div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content" id="slider"></div>
-      <div id="slider-range"></div>
-      <p>
-        <input type="text" id="minCost" value="0"/>
-        <input type="text" id="maxCost" value="1000"/>
-        <button class="button-filter">filter</button>
-      </p>
+      <div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-slider-handle ui-corner-all"
+           id="slider">
+        <a style="left: 0%;" class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+        <a style="right: 0%;" class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a>
+      </div>
+      <div id="slider-range">
+        <p>
+          <input type="text" id="minCost" value="0"/>
+          <input type="text" id="maxCost" value="1000"/>
+          <button class="button-filter">filter</button>
+        </p>
+      </div>
     </div>
-
-
     <div class="by-categ">BY CATEGORIES</div>
     <ul class="sidebar-categories list-unstyled">
       <li><a href="#"><span class="sidebar-nav-icon"
@@ -111,8 +115,6 @@
                             style="background-image: url('images/icon%20prod/icon_12p.png');"></span>Armchairs (4)</a>
       </li>
     </ul>
-
-
     <div class="sale-products">SALE PRODUCTS</div>
     <div class="sale-products-prod1">
       <div class="sale-products-img"></div>
@@ -142,25 +144,23 @@
         <div class="sale-products-title"><s>$350.00</s>$280.00</div>
       </div>
     </div>
-
   </div>
-
-
   <div class="product-grid-bloc">
     <div class="sort-by-type">
       <div class="sort-by">
         <span>Sort by</span>
-        <div class="sort-categoria">
-          <ul class="list-unstyled">
-            <li><a href="#">Rating</a></li>
-            <li><a href="#">Price</a></li>
-          </ul>
-          <button class="button-sort"></button></div>
+
+        <form action="#">
+          <select name="sort-categoria">
+            <option value="1">Rating</option>
+            <option value="2">Price</option>
+          </select>
+        </form>
       </div>
       <div class="view-product">
         <button class="button-view1"></button>
         <button class="button-view2"></button>
-        </div>
+      </div>
     </div>
     <div class="products-bloc">
       <ul class="featured-products-list">
@@ -377,12 +377,13 @@
     <div class="page-product">
       <div class="sort-by">
         <span>Sort by</span>
-        <div class="sort-categoria">
-          <ul class="list-unstyled">
-          <li><a href="#">Rating</a></li>
-          <li><a href="#">Price</a></li>
-          </ul>
-        <button class="button-sort"></button></div>
+
+        <form action="#">
+          <select name="sort-categoria">
+            <option value="1">Rating</option>
+            <option value="2">Price</option>
+          </select>
+        </form>
       </div>
       <div class="view-product">
         <ul class="list-unstyled">
@@ -393,13 +394,8 @@
       </div>
     </div>
   </div>
-  <div class="posts-share">
-
-  </div>
 </div>
-
 </div>
-
 <div class="subscription">
   <div class="news-letter">
     <ul class="list-unstyled">
@@ -481,7 +477,9 @@
 <script src="scripts/jquery-1.11.0.min.js"></script>
 <script src="scripts/slick.min.js"></script>
 <script src="scripts/jquery.slicknav.min.js"></script>
+<script src="scripts/jquery-ui.js"></script>
 <script src="scripts/jquery.ui-slider.js"></script>
+<script src="uniform/js/jquery.uniform.standalone.js"></script>
 <script src="scripts/index.js"></script>
 
 </body>

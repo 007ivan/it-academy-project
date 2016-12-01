@@ -170,4 +170,22 @@ s {
   }
 }
 
+@media (max-width: 974px) {
+  .featured-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    padding-bottom: 15px;
+  }
 
+  .featured-product {
+    flex-basis: 25%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+  }
+
+}

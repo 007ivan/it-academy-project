@@ -15,29 +15,32 @@
 }
 
 .sidebar-search {
-  display: flex;
+  float: right;
   border: 1px solid #be926f;
   margin-bottom: 30px;
-  padding-left: 25px;
-}
+ }
 
 .sidebar-search-form {
-  flex-grow: 1;
-  border: none;
-  font-size: 1.0666em;
+  float: left;
+  width: 224px;
   height: 43px;
-}
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: none;
+  border: none;
+  padding-left: 24px;
+  color: #ffffff;
+ }
 
 .button-blog {
+  border: none;
   font-size: 0;
+  width: 44px;
+  height: 43px;
+  float: right;
   background-image: url("../images/logo_search_blog.png");
   background-repeat: no-repeat;
   background-position: center center;
-  flex-basis: 44px;
-  height: 43px;
-  border: none;
-  background-color: #be926f;
-}
+  }
 
 .button-blog:hover {
   background-color: rgba(190, 146, 111, 0.8);
@@ -52,11 +55,11 @@
   position: absolute;
   background-image: url("../images/icon-convert.png");
   width: 20px;
-  height: 16px;
+  height: 20px;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: 12px;
-  left: -25px;
+  bottom: 14px;
+  left: -30px;
 }
 
 .sidebar-convert li {
@@ -69,10 +72,8 @@
   position: relative;
   text-decoration: none;
   color: #333333;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  left: 55px;
+  display: block;
+  margin-left: 55px;
 }
 
 .sidebar-convert li a:hover {
@@ -110,11 +111,11 @@
   position: absolute;
   background-image: url("../images/icon-calendar.png");
   width: 20px;
-  height: 16px;
+  height: 20px;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: 12px;
-  left: -25px;
+  bottom: 14px;
+  left: -30px;
 }
 
 .sidebar-archiv li {
@@ -127,10 +128,8 @@
   position: relative;
   text-decoration: none;
   color: #333333;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  left: 55px;
+  display: block;
+  margin-left: 55px;
 }
 
 .sidebar-archiv li a:hover {
@@ -191,6 +190,7 @@
   line-height: 1.2941;
   margin-left: 12px;
 }
+
 @media (max-width: 640px) {
   .sidebar {
     order: 2;

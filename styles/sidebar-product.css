@@ -1,6 +1,6 @@
 .page-body-product {
   max-width: 1170px;
-  min-width: 640px;
+  min-width: 320px;
   padding: 0 15px;
   margin: 0 auto;
   display: flex;
@@ -16,19 +16,24 @@
 }
 
 .sidebar-search-product {
-  display: flex;
+  float: right;
   border: 1px solid #be926f;
   margin-bottom: 30px;
-  padding-left: 25px;
 }
 
 .sidebar-search-form {
-  flex-grow: 1;
+  float: left;
+  width: 224px;
+  height: 43px;
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background: none;
   border: none;
-  font-size: 1.0666em;
+  padding-left: 24px;
+  color: #ffffff;
 }
 
 .button-blog {
+
   font-size: 0;
   background-image: url("../images/logo_search_blog.png");
   background-repeat: no-repeat;
@@ -55,8 +60,9 @@
   z-index: 2;
   width: 10px; /* Задаем нужную ширину */
   height: 10px; /* и высоту */
-  background: url("images styles/icon-slide.png") no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
-  cursor: pointer
+  background: #be926f;
+  /*background: url("images styles/icon-slide.png") no-repeat; /* картинка изображающая ползунок. Или можно залить цветом, задать бордюр и скругления */
+  cursor: pointer;
 }
 
 .ui-slider .ui-slider-range {
@@ -158,8 +164,7 @@
 .sidebar-categories li a {
   text-decoration: none;
   color: #333333;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: block;
 }
 
 .sidebar-categories li a:hover {
@@ -203,7 +208,7 @@
 
 .sale-products-prod1 {
   display: flex;
-  flex-basis: 50%;
+  /*flex-basis: 50%;*/
   box-sizing: border-box;
   align-items: flex-start;
   margin-top: 15px;
@@ -243,8 +248,7 @@
 @media (max-width: 640px) {
   .page-body-product {
     max-width: 1170px;
-    min-width: 320px;
-    padding: 0 15px;
+    padding: 0 0;
     margin: 0 auto;
     display: flex;
     justify-content: center;
