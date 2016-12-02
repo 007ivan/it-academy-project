@@ -15,6 +15,7 @@ $(function () {
     $(this).closest('li').toggleClass('opened');
   });
 });
+
 /* slider product-grid*/
 
 
@@ -118,6 +119,20 @@ $(document).ready(function () {
     ]
   });
 });
-$(function () {
+/*$(function () {
   $("select").uniform();
-});
+});*/
+
+
+$(function (){
+  $("#single_1").fancybox({
+    openEffect	: 'elastic',
+    closeEffect	: 'elastic',
+
+    helpers : {
+      title : {
+        type : 'inside'
+      }
+    }
+  });
+  });

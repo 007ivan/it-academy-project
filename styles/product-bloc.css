@@ -16,6 +16,20 @@
 .sort-by span {
   margin-right: 15px;
 }
+.form_cbx select {
+  background: transparent;
+  height: 28px;
+  border: 0;
+  width: 130px;
+}
+
+.form_cbx {
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  height: 28px;
+  background: url("images%20styles/icon-button-down1.png") no-repeat right;
+  width: 100px;
+}
 
 .button-view1 {
   border: none;
