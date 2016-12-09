@@ -122,7 +122,7 @@ $(document).ready(function () {
  $("select").uniform();
  });*/
 
-/*$(function () {
+$(function () {
  $('.product-preview .some-product').slick({
  arrows: false,
  slidesToShow: 3,
@@ -134,29 +134,7 @@ $(document).ready(function () {
  var picLink = $(this).attr('href');
  $('#product-image').attr('src', picLink);
  });
- });*/
-
-
-
-$(function () {
-  $('.product-image').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.some-product'
-  });
-
-  $('.some-product').slick({
-    slidesToShow: 3,
-    arrows: false,
-    verticalSwiping: true,
-    vertical: true,
-    asNavFor: '.product-image',
-    focusOnSelect: true
-  });
-});
-
+ });
 
 $(function () {
   $("#single_1").fancybox({
