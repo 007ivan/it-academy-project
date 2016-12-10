@@ -117,6 +117,43 @@ $(document).ready(function () {
       }
     ]
   });
+  var $slider3 = $(".featured-products-list");
+  $(".nav-new-posts .prew").on("click", function (e) {
+    e.preventDefault();
+    $slider3.slick("slickPrev");
+  });
+  $(".nav-new-posts .next").on("click", function (e) {
+    e.preventDefault();
+    $slider3.slick("slickNext");
+  });
+  $slider3.slick({
+    arrows: false,
+    infinite: true,
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          arrows: false,
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 830,
+        settings: {
+          arrows: false,
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 548,
+        settings: {
+          arrows: false,
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
 });
 /*$(function () {
  $("select").uniform();
@@ -170,4 +207,6 @@ $(document).ready(function() {
     return false;
   });
 });
+
+
 

@@ -241,7 +241,7 @@
   position: absolute;
   bottom: 0;
   top: 30px;
- }
+}
 
 .number span {
   cursor: pointer;
@@ -264,7 +264,7 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 1.2666em;
-   margin-top: 28px;
+  margin-top: 28px;
 }
 
 .quality .to-favorites {
@@ -305,6 +305,9 @@
 .ui-widget.ui-widget-content {
   border: none;
   margin-bottom: 30px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
@@ -313,6 +316,14 @@
 
 .ui-tabs .ui-tabs-panel {
   border: 1px solid #be926f;
+  margin-bottom: -5px;
+  margin-right: -3px;
+  margin-left: -3px;
+}
+
+.ui-tabs .ui-tabs-nav {
+  background-color: #f7f7f7;
+  margin-top: -6px;
 }
 
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
@@ -329,6 +340,8 @@
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.3333em;
   outline: #be926f;
+  margin-left: -3px;
+  margin-bottom: -1px;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active,
@@ -342,9 +355,6 @@
   outline: none;
 }
 
-.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
-  margin-bottom: -1px;
-}
 .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
   border-top-right-radius: 0;
 }
@@ -353,3 +363,16 @@
   border-top-left-radius: 0;
 }
 
+/* navigation menu*/
+
+.related-products .nav-new-posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-top: 45px;
+  margin-bottom: 16px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  flex-grow: 1;
+}
