@@ -14,7 +14,7 @@
 }
 
 .product-preview .product-image img {
-  max-width: 100%;
+  width: 500px;
   height: 600px;
   outline: none;
   border: 4px solid #dbc5b4;
@@ -489,7 +489,8 @@
     display: none;
   }
   .product-preview {
-    width: 500px;
+    max-width: 320px;
+    width: 100%;
     height: 600px;
     overflow: hidden;
     margin-bottom: 30px;
@@ -512,8 +513,8 @@
 @media  (max-width: 1040px) {
   .product-detail {
     float: left;
-    padding: 0 30px;
-    max-width: 400px;
+    padding: 0 20px;
+    max-width: 380px;
   }
   .social-bloc {
     display: flex;
@@ -524,7 +525,8 @@
     display: none;
   }
   .product-preview {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     height: 600px;
     overflow: hidden;
     margin-bottom: 30px;
