@@ -183,13 +183,13 @@ $(function () {
 });
 
 
-$(document).ready(function () {
+/*$(document).ready(function () {
   var $slider4 = $(".product-image");
   $slider4.slick({
     arrows: false,
     dots: true
   });
-});
+});*/
 
 $(function () {
   $("#single_1").fancybox({

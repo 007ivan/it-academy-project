@@ -1,3 +1,8 @@
+.product-info {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .product-preview {
   width: 670px;
   height: 600px;
@@ -456,8 +461,8 @@
 @media  (max-width: 1159px) {
   .product-detail {
     float: left;
-    padding: 0 30px;
-    max-width: 350px;
+    padding: 0 20px;
+    max-width: 390px;
   }
   .social-bloc {
     display: flex;
@@ -468,7 +473,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 300px;
+    max-width: 390px;
   }
 }
 @media  (max-width: 1109px) {
