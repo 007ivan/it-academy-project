@@ -6,6 +6,15 @@
 }
 
 .featured-products-list {
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;*/
+  list-style: none;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+.featured-products > .featured-products-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -172,9 +181,9 @@ s {
 
 @media (max-width: 974px) {
   .featured-products-list {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;*/
     list-style: none;
     padding: 0;
     padding-bottom: 15px;

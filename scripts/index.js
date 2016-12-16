@@ -131,14 +131,7 @@ $(document).ready(function () {
     infinite: true,
     slidesToShow: 4,
     responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          arrows: false,
-          slidesToShow: 3
-        }
-      },
-      {
+            {
         breakpoint: 1100,
         settings: {
           arrows: false,
@@ -173,7 +166,16 @@ $(function () {
     arrows: false,
     slidesToShow: 3,
     verticalSwiping: true,
-    vertical: true
+    vertical: true,
+    responsive: [
+      {
+        breakpoint: 820,
+        settings: {
+          arrows: true,
+          slidesToShow: 3
+        }
+      }
+    ]
   });
   $('.some-product a').on('click', function (e) {
     e.preventDefault();
@@ -226,5 +228,19 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function() {
+  $('.answer').hide();
+  $('.main  h2');
+  $('.main  h2') .click(function()  {
+  var  $answer  =  $(this).next('.answer');
+  if  ($answer.is(':hidden'))  {
+    $answer.slideDown();
+    $(this).addClass('close');
+  }  else  {
+    $answer.fadeOut();
+    $(this)  .removeClass ('close');
+  }
+});
+});
 
 
