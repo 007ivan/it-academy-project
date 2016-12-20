@@ -172,7 +172,9 @@ $(function () {
         breakpoint: 820,
         settings: {
           arrows: true,
-          slidesToShow: 3
+          vertical: false,
+          verticalSwiping: false,
+          slidesToShow: 1
         }
       }
     ]
