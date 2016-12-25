@@ -1,15 +1,27 @@
 .product-grid-bloc {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
 .sort-by-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .sort-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -59,12 +71,20 @@
 }
 
 .page-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .view-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-right: 7px;
 }
@@ -98,6 +118,7 @@
   background: #be926f;
   text-align: center;
   border: 1px solid #be926f;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -110,8 +131,12 @@
 .product-bloc {
   max-width: 850px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 33.33%;
   flex-basis: 33.33%;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -121,6 +146,7 @@
 
 .products-bloc .featured-products-list .featured-product {
   border: 1px solid #e6e6e6;
+  -ms-flex-preferred-size: 33.33%;
   flex-basis: 33.33%;
 }
 
@@ -133,6 +159,7 @@
 @media (max-width: 1236px) {
   .products-bloc .featured-products-list .featured-product {
     border: 1px solid #e6e6e6;
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
 }
@@ -148,6 +175,7 @@
 @media (max-width: 958px) {
   .products-bloc .featured-products-list .featured-product {
     border: 1px solid #e6e6e6;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 }
@@ -155,6 +183,7 @@
 @media (max-width: 639px) {
   .products-bloc .featured-products-list .featured-product {
     border: 1px solid #e6e6e6;
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
   }
 }
@@ -162,14 +191,20 @@
 @media (max-width: 560px) {
   .products-bloc .featured-products-list .featured-product {
     border: 1px solid #e6e6e6;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .page-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }

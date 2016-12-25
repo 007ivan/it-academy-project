@@ -15,7 +15,11 @@
 }
 
 .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -31,11 +35,14 @@
 }
 
 .romb {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 56px;
   height: 56px;
   background: #ffffff;
   border: 1px solid #be926f;
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   top: 0;
   left: 0;

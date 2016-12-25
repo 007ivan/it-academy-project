@@ -3,14 +3,25 @@
   min-width: 320px;
   padding: 0 15px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .sidebar-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-preferred-size: 270px;
   flex-basis: 270px;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
   margin-right: 30px;
 }
@@ -38,6 +49,7 @@
   background-image: url("../images/logo_search_blog.png");
   background-repeat: no-repeat;
   background-position: center center;
+  -ms-flex-preferred-size: 44px;
   flex-basis: 44px;
   height: 43px;
   border: none;
@@ -207,9 +219,13 @@
 }
 
 .sale-products-prod1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /*flex-basis: 50%;*/
   box-sizing: border-box;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -250,8 +266,13 @@
     max-width: 1170px;
     padding: 0 0;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }

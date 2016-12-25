@@ -1,7 +1,8 @@
 .slide {
   margin-top: 30px;
 
-  }
+}
 .shop-btn-link {
+  -o-object-fit: cover;
   object-fit: cover;
 }

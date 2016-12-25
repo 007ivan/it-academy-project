@@ -1,14 +1,20 @@
 .contacts {
   max-width: 1170px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .us-contacts {
   margin-top: 45px;
   margin-bottom: 35px;
+  -ms-flex-preferred-size: 33.33%;
   flex-basis: 33.33%;
 }
 
@@ -78,9 +84,15 @@
   .contacts {
     max-width: 1170px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }

@@ -43,10 +43,8 @@
   margin-left: 15px;
   font-size: 1.2em;
   text-transform: uppercase;
-}
-
-.fly {
   background-image: url("../images/icon-fly.png");
+  background-position: left center;
   background-repeat: no-repeat;
 }
 
